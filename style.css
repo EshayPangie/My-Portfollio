@@ -1,0 +1,50 @@
+body{
+    background-color:#89cff0;
+}
+.header{
+    font-size: 0.9cm;
+    border-style: solid;
+    border-radius: 2cm;
+    font-weight: bold;
+    background-color: #ea8c8f; 
+    /* background-color: #ffe6b3;  */
+
+}
+.info{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid ;
+    border-radius: 2cm;
+    margin-top: 0.6cm;
+    background-color:#4fd6f7;
+}
+.graphics{
+    margin-top: 0.7cm;
+    border-style: solid;
+    border-width: 0.05cm;
+    border-color:black;
+}
+.gameH{
+    margin-left: 9cm;
+    text-decoration: wavy;
+    font-style: italic;
+    font-size: 1.4cm;
+}
+.allGames{
+    border-style: solid;
+    margin: 0.6cm;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 4cm;
+    background-color:#29c5f6;
+}
+.eachGame{
+    flex-basis: 30%;
+    margin:1cm;
+}
+.gameName{
+    margin-left: 2.5cm;
+}
